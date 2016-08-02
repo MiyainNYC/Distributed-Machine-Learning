@@ -34,3 +34,37 @@ lab two:
 > Part 4: Analyzing Web Server Log File
 
 > Part 5: Exploring 404 Response Codes
+
+* **Distributed Machine Learning with Apache Spark**
+
+lab one:
+
+> Basic Machine Learningn concepts
+
+> supervised learning pipelines
+ 
+> linear algebra 
+
+> computational complexity/big O notation 
+
+> RDD data structure
+
+lab two;
+
+> Linear regression formulation and closed-form solution
+
+> Distributed machine learning principles (related to computation, storage, and communication)
+
+> Develop an end-to-end linear regression pipeline to predict the release year of a song given a set of audio features. Implement a gradient descent solver for linear regression, use Spark's machine Learning library (mllib) to train additional models, tune models via grid search, improve accuracy using quadratic features, and visualize various intermediate results to build intuition. Finally, write a concise version of this pipeline using Spark's pipeline API.
+
+lab three:
+
+> Online advertising, linear classification, logistic regression, working with probabilistic predictions, categorical data and one-hot-encoding, feature hashing for dimensionality reduction.
+
+> Construct a logistic regression pipeline to predict click-through rate using data from a recent Kaggle competition. Extract numerical features from the raw categorical data using one-hot-encoding, reduce the dimensionality of these features via hashing, train logistic regression models using mllib, tune hyperparameter via grid search, and interpret probabilistic predictions via a ROC plot.
+
+lab four:
+
+> Introduction to neuroscience and neuroimaging data, exploratory data analysis, principal component analysis (PCA) formulations and solution, distributed PCA.
+
+> Neuroimaging Analysis via PCA - Identify patterns of brain activity in larval zebrafish. Work with time-varying images (generated using a technique called light-sheet microscopy) that capture a zebrafish's neural activity as it is presented with a moving visual pattern. After implementing distributed PCA from scratch and gaining intuition by working with synthetic data, Use PCA to identify distinct patterns across the zebrafish brain that are induced by different types of stimuli.
